@@ -28,7 +28,7 @@ Using that we got the base64 of the `checkpass.php` after decoding it we got thi
 **checkpass.php**
 
 
-```
+``` php
 <?php
 $password = "w0rdc0unt123";
 // Cookie password.
@@ -46,7 +46,7 @@ http://chall.csivit.com:30202/?file=php://filter/convert.base64-encode/resource=
 ```
 And This is the content of the file :  
 **wc.php**
-```
+``` php
 <!DOCTYPE html>
 <html lang="en">
 
